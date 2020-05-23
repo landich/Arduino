@@ -3,8 +3,8 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH); // Turn ON
+  digitalWrite(13, HIGH); // Turn ON
   delay(300);                      // wait
-  digitalWrite(LED_BUILTIN, LOW);  // Turn OFF
+  digitalWrite(13, LOW);  // Turn OFF
   delay(300);                      // wait
 }
